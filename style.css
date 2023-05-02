@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    height: 20vh;
+    display: grid;
+    grid-template-areas:
+    "menu" "inicio"
+    "fotos" "fotinhas"
+    "quartos" "tipos de quarto"
+    "footer" "rodape";
+    grid-template-rows: 50px 1fr 50px;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    height: 40px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    background-color: aliceblue;
+    grid-area: menu;
+
+}
+.inicio{
+    background-color: aqua;
+    margin-right: 10px;
+}
+.reserva{
+    background-color:aliceblue;
+    margin-right: 10px;
+}
+.eventos{
+    background-color: bisque;
+    margin-right: 10px;
+}
+.contato{
+    margin-right: 10px
+}
+
+.fotos{
+    background-color: red;
+    height: px;
+
+}
+.quartos{
+    background-color: green;
+}
+.footer{
+    background-color: blueviolet;
+}
