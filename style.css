@@ -1,59 +1,39 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-body{
-    background-color: blue;
-    height: 20vh;
-    display: grid;
-    grid-template-areas:
-    "menu" "inicio"
-    "fotos" "fotinhas"
-    "quartos" "tipos de quarto"
-    "footer" "rodape";
-    grid-template-rows: 50px 1fr 50px;
 
-}
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.menu{
-    height: 40px;
-    width: 100%;
-    margin-top: 50px;
-    margin-left: 10px;
-    display: flex;
+body, html {
     background-color: aliceblue;
-    grid-area: menu;
-
-}
-.inicio{
-    background-color: aqua;
-    margin-right: 10px;
-}
-.reserva{
-    background-color:aliceblue;
-    margin-right: 10px;
-}
-.eventos{
-    background-color: bisque;
-    margin-right: 10px;
-}
-.contato{
-    margin-right: 10px
 }
 
-.fotos{
-    background-color: red;
-    height: px;
-
+header{
+    background-color: #f9f4e3;
+    color: #20591e;
 }
-.quartos{
-    background-color: green;
+header > h1{
+    padding: 20px;
+    text-align: center;
 }
-.footer{
-    background-color: blueviolet;
+menu{
+    width: 100%;
+    background-color: #20591e;
+}
+menu > ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #20591e;
+    text-align: center;
+    border-top: 0px solid ;
+    color: white;
+    
+}
+menu > ul > li > a:hover{
+    background-color: #96c994 ;
 }
