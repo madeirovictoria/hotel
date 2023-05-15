@@ -37,3 +37,11 @@ menu a{
 menu > ul > li > a:hover{
     background-color: #96c994 ;
 }
+.fota{
+    margin: auto;
+    background-color: aqua;
+
+}
+.fota picture{
+    margin: auto;
+}
