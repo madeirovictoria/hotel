@@ -53,14 +53,12 @@ menu > ul > li > a:hover{
     margin: auto;
     text-align: center;
     margin-top: 40px;
-    
-    
+    border-radius: 20px;
     
 }
 
 .fota picture{
     margin: auto;
-    border-radius: 8px;
 }
 
 .quarto{
@@ -72,7 +70,7 @@ menu > ul > li > a:hover{
     flex-direction: column;
     background-color: #b8e1b7 ; 
 }
-.quarto h1 {
+.quarto h1, h5, p{
     text-align: center;
 }
 
