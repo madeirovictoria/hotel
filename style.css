@@ -1,11 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
 
 }
 
 body, html {
     background-color: #f0dea2 ;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -106,3 +109,59 @@ menu > ul > li > a:hover{
     opacity: 0.5;
     transition: 0.2s;
 }
+
+#servicos{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45vh;
+    border: 1px solid green;
+}
+#servicos .eventos{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+.eventos div{
+    background-color: #96c994;
+    width: 30vw;
+    height: 10vh;
+    border-radius: 8px;
+    /* margin: 5px 0px ; */
+}
+.oferecidos{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+.oferecidos img{
+    width: 20%;
+}
+
+footer{
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+#footer_content{
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10rem 10,5rem;
+}
+#footer_content h3, h1{
+    text-align: center;
+}
+#footer_contents{
+    margin-bottom: 0,75rem;
+}
+#footer-social-midia{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+#footer-social-midia .footer-link{
+    height: 2.5rem;
+    width: 2.5rem;
+} 
