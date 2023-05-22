@@ -6,7 +6,7 @@
 }
 
 body, html {
-    /* background-color: #f0dea2 ; */
+    background-color: #f0dea2;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -111,8 +111,8 @@ menu > ul > li > a:hover{
 }
 
 .servicos{
-    /* background-color: blue; */
-    padding: 20px;
+    background-color: blue;
+    padding: 80px;
     /* display: flex; */
 }
 #divEventos{
@@ -122,16 +122,23 @@ menu > ul > li > a:hover{
 .eventos{
     width: 200px;
     height: 200px;
-    /* background-color: yellow; */
+    background-color: yellow;
     display: grid;
+    border-radius: 8px;
 }
-.eventos .imagem{
 
+.eventos .imagem{
     width: 150px;
     height: 150px;
-    /* background-color: pink; */
-    margin: auto;
+    background-color: antiquewhite;
+    margin: 30px;
     background-size: cover;
+    border-radius: 8px;
+}
+.eventos .imagem:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+
 }
 .eventos .img1{
     background-image: url(imagens/entrega-de-alimentos.png);
@@ -142,31 +149,6 @@ menu > ul > li > a:hover{
 .eventos .img3{
     background-image: url(imagens/piscina.png);
 }
-/* .servicos{
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-.servicos .eventos{
-    display: flex;
-    justify-content: space-around;
-}
-.eventos div{
-    background-color: #96c994;
-    width: 30vw;
-    height: 10vh;
-    border-radius: 8px;
-}
-.oferecidos{
-    display: flex;
-    justify-content: space-around;
-    padding: 0px;
-}
-.oferecidos img{
-    width: 20%;
-} */
 
 footer{
     width: 100%;
@@ -186,12 +168,17 @@ footer{
 #footer_contents{
     margin-bottom: 0,75rem;
 }
-#footer_social_midia{
+#footer_content #footer_contents #socialmidia {
+    background-color: red;
     display: flex;
-    gap: 2rem;
+    gap: 2rem ;
     margin-top: 1.5rem;
+    justify-content: center;
+
 }
-#footer_social_midia .footer-link{
+.footer-link{
     height: 1rem;
     width: 1rem;
+    background-color: yellow;
+    
 } 
