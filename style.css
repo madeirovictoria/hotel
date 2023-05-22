@@ -6,7 +6,7 @@
 }
 
 body, html {
-    background-color: #f0dea2 ;
+    /* background-color: #f0dea2 ; */
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -110,16 +110,46 @@ menu > ul > li > a:hover{
     transition: 0.2s;
 }
 
-#servicos{
-    background-color: white;
+.servicos{
+    /* background-color: blue; */
+    padding: 20px;
+    /* display: flex; */
+}
+#divEventos{
+    display: flex;
+    justify-content: space-between;
+}
+.eventos{
+    width: 200px;
+    height: 200px;
+    /* background-color: yellow; */
+    display: grid;
+}
+.eventos .imagem{
+
+    width: 150px;
+    height: 150px;
+    /* background-color: pink; */
+    margin: auto;
+    background-size: cover;
+}
+.eventos .img1{
+    background-image: url(imagens/entrega-de-alimentos.png);
+}
+.eventos .img2{
+    background-image: url(imagens/musica.png);
+}
+.eventos .img3{
+    background-image: url(imagens/piscina.png);
+}
+/* .servicos{
+    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 45vh;
-    border: 1px solid green;
+    
 }
-#servicos .eventos{
-    flex-direction: row;
+.servicos .eventos{
     display: flex;
     justify-content: space-around;
 }
@@ -128,7 +158,6 @@ menu > ul > li > a:hover{
     width: 30vw;
     height: 10vh;
     border-radius: 8px;
-    /* margin: 5px 0px ; */
 }
 .oferecidos{
     display: flex;
@@ -137,31 +166,32 @@ menu > ul > li > a:hover{
 }
 .oferecidos img{
     width: 20%;
-}
+} */
 
 footer{
     width: 100%;
-    background-color: aquamarine;
-    margin-top: 10px;
+    height: 400px;
+    border-color: #073805; 
+    background-color: #0e910a;
+ 
 }
 #footer_content{
-    /* background-color: black; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 10rem 10,5rem;
 }
 #footer_content h3, h1{
     text-align: center;
+    margin-top: 80px;
 }
 #footer_contents{
     margin-bottom: 0,75rem;
 }
-#footer-social-midia{
+#footer_social_midia{
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
 }
-#footer-social-midia .footer-link{
-    height: 2.5rem;
-    width: 2.5rem;
+#footer_social_midia .footer-link{
+    height: 1rem;
+    width: 1rem;
 } 
