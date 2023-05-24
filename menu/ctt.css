@@ -2,7 +2,21 @@
     padding: 0%;
     margin: 0%;
 }
-body, html{
-   background-color: #f9f4e3;
-   color:  #20591e;
+body{
+    background-image: url(../imagens/eventoimg.jpeg);
+}
+header{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.informacoes{
+    align-items: center;
+    background-color: azure;
+    padding: 300px;
+    margin: 20px 300px 300px 300px;
+    border-radius: 20px;
+}
+.informacoes h2{
+    
 }

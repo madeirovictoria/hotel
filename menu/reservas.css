@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
-body, html{
-    /* background-color: #e7b100; */
+body{
+    /* background-image: linear-gradient(to
+    bottom, green, #96c994
+    ); */
 }
 
 header{
