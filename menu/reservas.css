@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    /* background-color: #e7b100; */
+}
+
+header{
+    color: #20591e;
+}
+header > h1{
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+
+}
+menu{
+    width: 100%;
+    background-color: #20591e;
+}
+menu > ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #20591e;
+    text-align: center;
+    border-top: 0px solid ;
+    color: white;
+    
+}
+menu > ul > li > a:hover{
+    background-color: #96c994 ;
+} 
+.reserv{
+     margin: 100px 50px 50px;
+}
+
+.reserve{
+    /* background-color:aliceblue; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.reserve img{
+    margin: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.397);
+}
+
+.reserve h2, p{
+    text-align: center;
+    margin-top: 80px;
+}
+.reserve ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid rgba(0, 128, 0, 0.479);
+    border-radius: 10px;
+    margin: 50px;
+}
+.botao{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+.botao button{
+    background-color:#20591e;
+    border: none;
+    color: white;
+    padding: 5px 3rem;
+    height: 100%;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;  
+    transform: all 0.4s;
+
+}
+
+.botao button:hover{
+    opacity: 0.6;
+}
