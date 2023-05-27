@@ -113,6 +113,11 @@ menu > ul > li > a:hover{
     display: grid;
     border-radius: 8px;
 }
+.servicos h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 
 .eventos .imagem{
     width: 150px;
