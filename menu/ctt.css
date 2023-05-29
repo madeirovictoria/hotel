@@ -1,22 +1,71 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 body{
     background-image: url(../imagens/eventoimg.jpeg);
+   
 }
 header{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 0px;
 }
 .informacoes{
-    align-items: center;
-    background-color: azure;
-    padding: 300px;
-    margin: 20px 300px 300px 300px;
-    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 100px;
 }
-.informacoes h2{
+/* .botao{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+.botao button{
+    background-color:#20591e;
+    border: none;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;  
+    transform: all 0.4s;
+
+
+}
+
+.botao button:hover{
+    opacity: 0.6;
+} */
+/* .footer_home{
+    /* background-color: aliceblue; */
+    /* display: flex;
+    justify-content: flex-end;
+}
+.footer_home .footer-home{
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 0.4s;
     
 }
+ .footer-link{
+    font-size: 1.5rem;
+}
+.footer_home .footer-home:hover{
+    opacity: 0.8;
+}
+.footer-link{
+    height: 2.5rem;
+    width: 2.5rem; 
+} 
+#home{
+    background-color: green;
+} */ 

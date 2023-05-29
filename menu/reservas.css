@@ -8,6 +8,7 @@ body{
     /* background-image: linear-gradient(to
     bottom, green, #96c994
     ); */
+    background-color: rgba(245, 232, 187, 0.863);
 }
 
 header{
@@ -15,7 +16,7 @@ header{
 }
 header > h1{
     text-align: center;
-    background-color: red;
+    background-color: rgba(245, 232, 187, 0.863);
     padding: 20px;
 
 }
