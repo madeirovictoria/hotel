@@ -4,13 +4,15 @@
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(../imagens/);
+    background-image: url(../imagens/eventooo.jpeg);
    
 }
 header{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 0px;
+    color: white;
+    background-color: #287a25cc;
 }
 .informacoes{
     display: block;
@@ -25,18 +27,21 @@ header{
 button{
     background-color:#287a25;
     border: none;
-    padding: 10px;
-    height: 50px;
-    width: 50px;
+    /* padding: 0px; */
+    height: 40px;
+    width: 70px;
     border-radius: 8px;
     cursor: pointer;  
     transform: all 0.4s;
+    margin: 20px;
+    margin-bottom: 5px;
     
 }
-.botao button a{
+.informacoes .botao button a{
     color: white;
     text-decoration: none;
 }
+
 button:hover{
     opacity: 0.6;
 } 

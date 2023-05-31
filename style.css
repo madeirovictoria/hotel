@@ -226,7 +226,7 @@ footer{
 .input-group{
     display: flex;
     align-items: center;
-    background-color: #0a8621;
+    background-color: #0a8621ea;
     border-radius: 4px;
 }
 .input-group input{
