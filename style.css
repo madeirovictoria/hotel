@@ -61,18 +61,17 @@ menu > ul > li > a:hover{
     margin-top: 20px;
     justify-content: center;
     flex-direction: column;
-    background-color: #8ce654;
+    background-color: rgba(245, 232, 187, 0.863);
 }
-.quarto h1, h5, p{
+.quarto h1, h5, h3, p{
     text-align: center;
     margin: auto;
-    color: rgb(27, 24, 24);
+    color:#20591e;
 }
 
 .quarto .quarto-imagem{
     display: flex;
     height: auto;
-    /* background-color: black; */
 }
 
 .suite{
